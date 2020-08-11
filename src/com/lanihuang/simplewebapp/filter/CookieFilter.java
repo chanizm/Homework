@@ -39,7 +39,7 @@ public class CookieFilter implements Filter {
   throws IOException, ServletException {
     HttpServletRequest req = (HttpServletRequest) request;
     HttpSession session = req.getSession();
-
+//아무거나
     UserAccount userInSession = MyUtils.getLoginedUser(session);
 
     if (userInSession != null) {
